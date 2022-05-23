@@ -50,4 +50,32 @@ h1,h2,h3,h4{
 }
 .container{
     max-width:1200px;
+    margin: 0 auto;
+}
+.rectb{
+    width: 440px;
+    height: 720px;
+    background-color:rgba(0, 91, 193, .6);
+
+}
+.first-screen__container{
+    display: flex;
+    align-items: center  ;
+}
+.first-screen__content__header{
+    font-size: 48px;
+}
+.first-screen__content__text{
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.first-screen__content{
+    margin-left: -250px;
+    max-width: 635px;
+}
+.first-screen__content__btn{
+    padding: 15px 40px;
+    background-color: transparent;
+    border: 1px solid white;
 }
