@@ -26,6 +26,7 @@ h1,h2,h3,h4{
 }
 .first-screen{
     background-image: url(img/Rectangle2.jpg);
+    margin-bottom: 150px;
 }
 .header{
     background-color: rgba(0, 91, 193, .6);
@@ -79,3 +80,22 @@ h1,h2,h3,h4{
     background-color: transparent;
     border: 1px solid white;
 }
+.header__burgerup{
+    width: 100px;
+    height: 2px;
+    background-color: #005BC1;
+}
+.header__burgerdown{
+    width: 50px;
+    height: 2px;
+    margin-top:13px ;
+    background-color: #005BC1;
+    margin-left: 50px; 
+}
+.projects__heading{
+    color: #005BC1;
+}
+.projects-header{
+    display: flex;
+}
+
