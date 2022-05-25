@@ -27,6 +27,7 @@ h1,h2,h3,h4{
 }
 .first-screen{
     background-image: url(img/Rectangle2.jpg);
+    object-fit:cover;
     margin-bottom: 150px;
 }
 .header{
@@ -163,8 +164,59 @@ h1,h2,h3,h4{
 .catalog__link{
     color: #343434;
     text-decoration: none;
+    font-family: 'Oswald';
+    font-size: 24px;
+    margin-right:40px ;
 }
 .catalog__link:active{
     text-decoration: underline;
     color: #005BC1;
+}
+.catalog__menu{
+    margin: 0 auto;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 70px;
+}
+.catalog__item{
+    
+    width: 350px;
+    height: 300px;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+.lightelem{
+    background-image: url(img/lightelement.png);
+}
+.item__text{
+    font-family: 'Oswald';
+    font-size: 18px;
+}
+.catalog__item__text{
+    background-color: #005BC1;
+    max-width: 265px;
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    padding: 15px 36px 15px 21px;
+}
+.controller{
+    background-image: url(img/controller.png);
+    
+}
+.controller__text{
+    padding: 29px 125px 28px 21px;
+}
+.catalog__products{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.accessories__text{
+    padding: 29px 125px 28px 21px
+}
+.accessories{
+    background-image: url(img/accessories.png);
 }
