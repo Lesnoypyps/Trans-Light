@@ -95,7 +95,7 @@ h1,h2,h3,h4{
     margin-left: 50px; 
 }
 .projects__heading,.catalog__heading{
-    color: #005BC1;
+    color: #343434;
 }
 .projects-header{
     display: flex;
