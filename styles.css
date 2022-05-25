@@ -93,7 +93,7 @@ h1,h2,h3,h4{
     background-color: #005BC1;
     margin-left: 50px; 
 }
-.projects__heading{
+.projects__heading,.catalog__heading{
     color: #005BC1;
 }
 .projects-header{
@@ -152,4 +152,19 @@ h1,h2,h3,h4{
 .slidefrst:nth-child(2){
     background-image: url(img/Rectangle41.png);
     margin-left: 40px;
+}
+.catalog{
+    margin-top: 50px;
+}
+.catalog__headingandburger{
+    display:flex ;
+    align-items: center;
+}
+.catalog__link{
+    color: #343434;
+    text-decoration: none;
+}
+.catalog__link:active{
+    text-decoration: underline;
+    color: #005BC1;
 }
