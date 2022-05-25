@@ -94,7 +94,7 @@ h1,h2,h3,h4{
     background-color: #005BC1;
     margin-left: 50px; 
 }
-.projects__heading,.catalog__heading{
+.projects__heading,.catalog__heading,.rent__heading{
     color: #343434;
 }
 .projects-header{
@@ -116,7 +116,7 @@ h1,h2,h3,h4{
 }
 
 
-.projects__headingandburger{
+.heading{
     display: flex;
     align-items: center;
 }
@@ -219,4 +219,14 @@ h1,h2,h3,h4{
 }
 .accessories{
     background-image: url(img/accessories.png);
+}
+.rent{
+    margin-top: 150px;
+}
+.rent__description{
+    max-width: 350px;
+    margin-top: 150px;
+}
+.rent__text{
+    color: #343434;
 }
